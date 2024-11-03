@@ -29,7 +29,7 @@ class HLODUTILITIESEXTRAEDITOR_API UHLODBuilderInstancingCustomSettings : public
  * Build a AWorldPartitionHLOD whose components are ISMC.
  * Allows batching with added functionality for custom primitive data and how that batches
  */
-UCLASS(HideDropdown)
+UCLASS()
 class HLODUTILITIESEXTRAEDITOR_API UHLODBuilderInstancingCustomPrim : public UHLODBuilderInstancing
 {
 	GENERATED_UCLASS_BODY()
