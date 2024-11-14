@@ -3,10 +3,10 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "HLODUtilitiesExtra",
-	"Description": "Expands world partition HLOD Utilities to include a HLOD build instancing that considers Custom Primitive data and gives the option to turn World Position Offset off for generated HLODs",
+	"Description": "Adds an HLOD modifier to disable WPO in the generated HLOD meshes. Modifier also copies over customPrimData from hierarchical instanced meshes like foliage to its resulting HLOD component PerInstanceCustomData array so HLOD can read its data.",
 	"Category": "Other",
-	"CreatedBy": "",
-	"CreatedByURL": "",
+	"CreatedBy": "NanceDevDiaries",
+	"CreatedByURL": "https://github.com/NanceDevDiaries",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
@@ -15,20 +15,9 @@
 	"Installed": true,
 	"Modules": [
 		{
-			"Name": "HLODUtilitiesExtra",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		},
-		{
 			"Name": "HLODUtilitiesExtraEditor",
 			"Type": "Editor",
 			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "WorldPartitionHLODUtilities",
-			"Enabled": true
 		}
 	]
 }

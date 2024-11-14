@@ -11,7 +11,7 @@ public class HLODUtilitiesExtraEditor : ModuleRules
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
-                "Core", "WorldPartitionHLODUtilities"
+                "Core", "Engine"
             }
         );
 
@@ -19,10 +19,6 @@ public class HLODUtilitiesExtraEditor : ModuleRules
             new string[]
             {
                 "CoreUObject",
-                "Engine",
-                "Slate",
-                "SlateCore",
-                "HLODUtilitiesExtra"
             }
         );
     }
